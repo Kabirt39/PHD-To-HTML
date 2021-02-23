@@ -1,0 +1,129 @@
+
+
+/*		Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.Service_top img{
+		display: none;
+	}
+	.sm_style {
+	  margin-bottom: 40px;
+	  text-align: center;
+	}
+	.alog_left_contan > h2{
+		margin-top: 30px;
+	}
+}
+@media only screen and (min-width: 1170px) and (max-width: 1320px){
+	.slider_left {
+	  bottom: 0;
+	  
+	}
+}
+@media only screen and (min-width:300 ) and (max-width: 1170px){
+	.slider_left {
+	 display: none;
+	}
+}	
+
+/*		Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+	.container > .navbar-header {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+	.right_a_bg > li > a{
+		text-align: center;
+	}
+	.Service_top img{
+		display: none;
+	}
+	.Designer_img img {
+	  padding-bottom: 40px;
+	}
+	.sm_style {
+	  margin-bottom: 40px;
+	  text-align: center;
+	}
+	.alog_left_contan > h2{
+		margin-top: 30px;
+	}
+	
+
+}
+	
+/*		Wide Mobile Layout: 480px.   */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.alog_left_contan > h2{
+		margin-top: 30px;
+	}
+	.news_left > img {
+	    margin-top: 40px;
+	}
+
+
+}
+@media only screen and (max-width: 480px) {
+	.app_area_contan > h1{
+		font-size: 20px;
+	}
+	.news_left > img {
+	    margin-top: 40px;
+	}
+	.form-inline .input_style {
+   		 width: 232px;
+	}
+	
+}
+@media only screen and (max-width: 580px){
+	.portfolio_cat_list ul li {
+	  font-size: 12px;
+	  margin: 4px;
+	}
+}
+@media only screen and (max-width: 375px){
+	.portfolio_cat_list ul li {
+	  font-size: 8px;
+	  margin: 0px;
+	}
+}
+@media only screen and (min-width: 300px) and (max-width: 767px){
+	.Designer_details {
+	  text-align: center;
+	}
+	.app_area_contan {
+	  text-align: center;
+	}
+	.row.alog_right {
+	  padding: 0 15px;
+	  text-align: center;
+	}
+	.row.alog_left {
+	  padding: 0 15px;
+	  text-align: center;
+	}
+	.news_left {
+	  padding: 0 15px;
+	  text-align: center;
+	}
+	.form-control.input_style {
+	  text-align: center;
+	  margin: 0 auto;
+	}
+	.footer_left {
+	  text-align: center;
+	}
+	.footer_right {
+	  text-align: center;
+	}
+	.bacis_top_left{
+		text-align: center;
+	}
+	.bacis_top_right h3{
+		text-align: center;
+	}
+	
+}
+

@@ -1,0 +1,806 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	 font-family: "Myriad Pro", sans-serif;
+}
+.center{
+	text-align: center;
+}
+.no-padding-left{
+	padding-left: 0px;
+}
+.no-padding-right{
+	padding-right: 0px;
+}
+		/*---------------------- HEADER AREA -------------------*/
+.header-area{
+	background: url("../images/header-bg.png") no-repeat;
+	background-size: cover;
+	background-position: center center;
+    background-attachment: fixed;
+}
+.navbar-default{
+	background: transparent;
+	border: transparent;
+}
+.navbar {
+    padding-top: 50px;
+}
+.navbar-default .navbar-nav>li{
+
+}
+.navbar-default .navbar-nav>li>a{
+	color: #fff;
+	font-size: 14px;
+	font-weight: 300;
+}
+li.new-style-li {
+    padding: 0px 50px;
+    border: 2px solid #ffffff;
+    border-radius: 15px;
+    margin-left: 20px;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    background-color: #fa3d1e;
+    border-radius: 17px;
+    color: #fff;
+    transition: all 0.5s;
+}
+li.new-style-li:hover a{
+	 background-color: transparent !important;
+    border-radius: 0px !important;
+}
+
+											
+.header-bottom-top {
+    margin-top: 150px;
+    color: #fff;
+}
+
+.header-bottom-top p {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.header-bottom-top h1 {
+    font-size: 60px;
+    margin-top: 0px;
+    font-weight: 800;
+}
+.header-bottom-a {
+    margin-top: 80px;
+}
+
+.header-bottom-a > .header-bottom-a1 > a {
+    display: inline-block;
+    color: #fff;
+    margin-right: 15px;
+    font-size: 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border: 3px solid #fff;
+    padding: 5px 19px;
+    border-radius: 18px;
+}
+.header-bottom-a > .header-bottom-a2 > a {
+    display: inline-block;
+    color: #fff;
+    margin-right: 15px;
+    font-size: 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border: 3px solid #fff;
+    padding: 5px 60px;
+    border-radius: 18px;
+}
+.header-bottom-a > .header-bottom-a1 > a:hover{
+	background: #fff;
+	color: #b4aeaf;
+	transition: all 0.5s;
+}
+.header-bottom-a > .header-bottom-a2 > a:hover{
+	background: #fff;
+	color: #b4aeaf;
+	transition: all 0.5s;
+}
+.ds_padding > .navbar-default{
+     padding: 35px 0px 35px 0px;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    background: rgba(0,0,0, .8) !important;
+    -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+    -ms-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+}	
+.header-bottom {
+    padding-top: 136px;
+}
+li.active a {
+    background: red !important;
+    color: #fff !important;
+    border-radius: 16px;
+}
+												
+
+		/*---------------------- HEADER AREA -------------------*/
+
+
+		/*---------------------- DISCOVER AREA -------------------*/
+.discover-top {
+    background: #fa3d1e;
+    color: #fff;
+    padding: 60px 0px;
+}
+
+.discover-top-inner h1 {
+    font-size: 28px;
+    font-weight: 300;
+}
+.discover-bottom {
+    background: #000000;
+    color: #fff;
+}
+
+.discover-bottom-left img {
+    width: 95%;
+}
+
+.discover-bottom-right {
+    margin-top: 50px;
+}
+
+.discover-bottom-right h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.discover-bottom-right p {
+    font-size: 18px;
+    font-weight: 300;
+}
+														
+
+		/*---------------------- DISCOVER AREA -------------------*/
+
+		/*---------------------- STEP PROCESS -------------------*/
+.process-top-inner h1 {
+    text-align: center;
+    color: #2f2f2f;
+    font-size: 30px;
+    padding: 50px 0px;
+    font-weight: 800;
+    position: relative;
+}
+.process-top-inner h1:before{
+	content: "";
+    position: absolute;
+    top: 86px;
+    left: 49%;
+    width: 40px;
+    height: 3px;
+    background: #2f2f2f;
+}
+.process-bottom-left-img1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.process-bottom-left-img2 img {
+    width: 100%;
+}
+.process-bottom-left-write h2 {
+    font-size: 18px;
+    color: #2f2f2f;
+    font-weight: 900;
+}
+
+.process-bottom-left-write p {
+    color: #959595;
+  }
+ .process-bottom-left-a a {
+    text-decoration: none;
+    display: inline-block;
+    background: #fa3d1e;
+    color: #fff;
+    font-size: 18px;
+    padding: 8px 30px;
+    border-radius: 10px;
+    margin-left: 127px;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    font-weight: 900;
+}
+											
+
+		/*---------------------- STEP PROCESS -------------------*/
+
+		/*---------------------- HEALTH  AREA -------------------*/
+.health-area{
+	background: url("../images/helth.png");
+    background-attachment: fixed;
+}
+.health-top {
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    text-align: center;
+}
+
+
+.health-top-write-h2 {
+    font-size: 30px;
+}
+
+.health-top-write {
+    padding-top: 70px;
+    padding-bottom: 60px;
+}
+
+.health-top-write-a a {
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 30px;
+    color: #000000;
+    background: #fff;
+    padding: 12px 70px;
+    opacity: 1 !important;
+    font-size: 30px;
+    border-radius: 17px;
+}
+.health-bottom {
+	background: rgba(250,61,30, 0.75);
+    padding: 70px 0px 90px;
+}
+
+.health-bottom-top {
+    color: #fff;
+    text-align: center;
+}
+.health-bottom-left {
+    text-align: center;
+}
+
+.health-bottom-right {
+    text-align: center;
+}
+.health-bottom-top h1 {
+    font-size: 28px;
+    margin-bottom: 60px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.health-bottom-top p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+		/*---------------------- HEALTH  AREA -------------------*/
+
+		/*---------------------- INTRODUCING  AREA -------------------*/
+section.introducing-area {
+    margin-top: 90px;
+    margin-bottom: 80px;
+    overflow: hidden;
+}
+
+.introducing-top h1 {
+    color: #fa3d1e;
+    font-size: 28px;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+
+.introducing-top p {
+    font-size: 18px;
+    color: #2f2f2f;
+    margin-bottom: 65px;
+}
+.introducing-bottom {
+    margin-top: 55px;
+}
+
+.introducing-bottom p {
+    color: #2f2f2f;
+    font-size: 18px;
+    font-weight: 300;
+}
+		/*---------------------- INTRODUCING  AREA -------------------*/
+
+		/*---------------------- RESISTANCE  AREA -------------------*/
+section.resistance-area{
+	background: url("../images/resistance-bg.png") no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: #fff;
+    background-attachment: fixed;
+}
+.resistance-top {
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    text-align: center;
+    padding: 35px 0px;
+}
+.resistance-top h1 {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.resistance-top h1 span {
+    border: 2px solid #fff;
+    padding: 6px 15px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.resistance-mid {
+    margin-top: 25px;
+    margin-bottom: 75px;
+}
+
+.resistance-mid-right {
+    margin-top: 55px;
+}
+
+.resistance-mid-right h2 {
+    font-size: 30px;
+}
+
+.resistance-mid-right p {
+    font-size: 18px;
+}
+.resistance-bottom-left {
+    margin-top: 55px;
+}
+
+.resistance-bottom-left h2 {
+    font-size: 30px;
+}
+
+.resistance-bottom-left p {
+    font-size: 18px;
+}
+.resistance-bottom {
+    padding-bottom: 40px;
+}
+.resistance-mid-left{
+	position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.resistance-mid-left img{
+    
+    border-radius: 50%;
+}
+.plush-icon {
+     left: 0;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    margin-left: 0px;
+    margin-top: 0px;
+    border-radius: 50%;
+
+  
+}
+.plush-icon  i{
+    left: 50%;
+    position: absolute;
+    top: 50%;
+   
+    margin-left: 0px;
+    margin-top: 0px;
+    border-radius: 50%;
+}
+.resistance-mid-left:hover .plush-icon {
+    opacity: 1;
+    background: rgba(127,63,152,.5);
+    width: 100%;
+    height: 100%;
+    transition: all 2s;
+    cursor: pointer;
+    position: absolute;
+    border-radius: 50%;
+}
+		/*---------------------- RESISTANCE  AREA -------------------*/
+
+		/*---------------------- WORKOUT  AREA -------------------*/
+section.workout-area{
+	background: url("../images/workout-bg.png") no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: #fff;
+    background-attachment: fixed;
+}
+.workout-top {
+    background: rgba(191,191,191, 0.5);
+    color: #fff;
+    text-align: center;
+    padding: 35px 0px;
+}
+.workout-top h1 {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.workout-top h1 span {
+    border: 2px solid #fff;
+    padding: 6px 15px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.workout-mb-inner{
+	background: rgba(250,61,30, 0.70);
+	padding: 65px 0px;
+}
+.workout-mid p {
+    text-align: center;
+    font-size: 18px;
+}
+
+.workout-mid {
+    margin-bottom: 60px;
+}
+.workout-bottom-right {
+    margin-top: 50px;
+}
+
+.workout-bottom-right h2 {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.workout-bottom-right p {
+    font-size: 18px;
+}
+
+.workout-bottom-right-a {
+    text-align: center;
+    margin-top: 105px;
+}
+
+.workout-bottom-right-a a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    border: 2px solid #fff;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+		/*---------------------- WORKOUT  AREA -------------------*/
+
+		/*---------------------- FOLLOW  AREA -------------------*/
+.follow-area{
+	background: url("../images/follow-bg.png") no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: #fff;
+    background-attachment: fixed;
+}
+.follow-top {
+    background: rgba(191,191,191, 0.6);
+    color: #fff;
+    text-align: center;
+    padding: 35px 0px;
+}
+.follow-top h1 {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.follow-top h1 span {
+    border: 2px solid #fff;
+    padding: 6px 15px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.follow-bottom{
+	background: rgba(255,255,255, 0.3);
+	padding: 45px 0px 65px;
+}
+.workout-mid p {
+    text-align: center;
+    font-size: 18px;
+}
+.pragrap-center {
+    text-align: center;
+    margin-bottom: 55px;
+    font-size: 18px;
+}
+
+.follow-bottom-ul ul li {
+    font-size: 18px;
+}
+		/*---------------------- FOLLOW  AREA -------------------*/
+
+
+
+
+
+
+
+
+
+		/*---------------------- HEALTH 2  AREA -------------------*/
+.health-top2{
+	background: #000000 !important;
+	opacity: 1 !important;
+}
+.health-bottom2{
+	background: #fff !important;
+	opacity: 1 !important;
+}
+.health-bottom-top2 h1{
+	color: #fa3d1e!important;
+}
+.health-bottom-top2 p{
+	color: #000000!important;
+}
+
+		/*---------------------- HEALTH 2  AREA -------------------*/
+
+		/*---------------------- TRANSFORM  AREA -------------------*/
+.Transform-area-inner{
+	background: url("../images/Transform.png") no-repeat;
+	background-position: center center;
+	background-size: cover;
+	padding: 70px 0px;
+    background-attachment: fixed;
+}
+.Transform-top-h1 h1 {
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-bottom: 80px;
+}
+.Transform-bottom-left {
+    background: #fa3d1e;
+    text-align: center;
+    color: #fff;
+    padding: 50px 0px 70px;
+    border-radius: 10px;
+    border: 10px solid #fff;
+}
+
+.Transform-bottom-left h3 {
+    font-size: 18px;
+    font-weight: 800;
+    font-weight: 300;
+}
+
+.Transform-bottom-left h1{
+	font-size: 100px;
+	font-weight: 800;
+}
+.Transform-bottom-left h1 sup {
+    font-size: 20px;
+    top:-2.5em !important;
+}
+.Transform-bottom-left h2 {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.Transform-bottom-left p {
+    font-size: 18px;
+}
+
+.Transform-bottom-left a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    border: 2px solid #fff;
+    margin-top: 40px;
+    padding: 5px 50px;
+    border-radius: 10px;
+}
+.Transform-bottom-right {
+    text-align: center;
+    color: #fff;
+    margin: 40px 0px;
+    padding: 30px 0px; 
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+}
+.Transform-bottom-right h3 {
+    font-size: 18px;
+    font-weight: 800;
+    font-weight: 300;
+}
+.Transform-bottom-right h1{
+	font-size: 100px;
+	font-weight: 800;
+}
+.Transform-bottom-right h1 sup {
+    font-size: 20px;
+    top:-2.5em !important;
+}
+.Transform-bottom-right h2 {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+.Transform-bottom-right p {
+    font-size: 18px;
+}
+
+.Transform-bottom-right a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    border: 2px solid #fff;
+    margin-top: 40px;
+    padding: 5px 50px;
+    border-radius: 10px;
+}
+		/*---------------------- TRANSFORM  AREA -------------------*/
+
+		/*---------------------- ABOUT  AREA -------------------*/
+.about-top {
+    padding: 85px 0px 35px;
+}
+
+.about-top-left h1 {
+    color: #2f2f2f;
+    font-size: 30px;
+}
+
+.about-top-left p {
+    color: #959595;
+    font-size: 18px;
+}
+.about-bottom-inner h1 {
+    font-size: 30px;
+    text-align: center;
+    color: #2f2f2f;
+    font-weight: 300;
+}
+
+.about-bottom-inner h1 a {
+    display: inline-block;
+    text-decoration: underline;
+    color: #fa3d1e;
+}
+
+		/*---------------------- ABOUT  AREA -------------------*/
+
+		/*---------------------- health 3  AREA -------------------*/
+section.health-area3 {
+    background: #fa3d1e;
+    color: #fff;
+}
+.a-new-style a{
+	display: inline-block;
+	color: #fa3d1e !important;
+}
+.about-bottom-inner {
+    margin-bottom: 70px;
+}
+		/*---------------------- health 3  AREA -------------------*/
+		/*---------------------- FOOTER  AREA -------------------*/
+.footer-area {
+    background: #959595;
+    color: #fff;
+}
+
+.footer-inner {
+    padding: 14px 0px 6px;
+    font-size: 13px;
+}
+		/*---------------------- FOOTER  AREA -------------------*/
+
+		/*############################## media query ############################*/
+
+@media (max-width: 768px) {
+	li.new-style-li{
+		margin-left: 0px;
+	}
+	.header-bottom-top h1 {
+    font-size: 40px;
+}
+
+.header-bottom-top a {
+}
+
+.header-bottom-a span {
+    display: block;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.header-bottom-bottom img {
+    width: 100%;
+}
+
+.discover-bottom-left img {
+    width: 100%;
+}
+
+.process-bottom-left-img2 img {
+    width: 100%;
+}
+
+.process-bottom-left-img2 img {
+    width: 100%;
+}
+
+.process-bottom-left-img2 img {
+    width: 100%;
+}
+
+.health-top-write span a {
+    display: block;
+    margin-top: 47px;
+}
+
+.health-bottom-left img {
+    width: 91%;
+    margin-bottom: 45px;
+}
+
+.health-bottom-right img {
+    width: 100%;
+}
+
+.introducing-mid {
+    display: none;
+}
+
+.resistance-mid-left {
+    text-align: center;
+}
+
+.resistance-bottom-right {
+    text-align: center;
+    margin-top: 41px;
+}
+
+.workout-bottom-left {
+    text-align: center;
+}
+
+.follow-bottom-ul {margin-top: 20px;}
+.header-bottom-top {
+    margin-top: 20px;
+	}
+	.process-bottom-left-a a{
+		margin-left: 0px;
+	}
+	.health-top-write-a a{
+		margin-left: 0px;
+	}
+	.health-top-write-a a{
+		text-align: center;
+	}
+}
+
+@media (max-width: 360px){
+.header-bottom-a > .header-bottom-a1 > a{
+	font-size: 20px;
+}
+.header-bottom-a > .header-bottom-a2 > a{
+	font-size: 20px;
+	}
+	.health-top-write-a a{
+		font-size: 20px;
+	}
+	.health-top-write-a a{
+		font-size: 20px;
+	}
+}
+/*---------------------- media query -------------------*/
+
+
+		/****************************************** login.html ********************************/
+.navbar-new-style{
+	padding-top: 0px !important;
+}
+.header-area-new-style{
+	background: #959595 !important;
+	padding: 40px 0px;
+}
